@@ -17,7 +17,7 @@ RUN case "$TARGETPLATFORM" in \
     bun build --compile --minify --sourcemap ./index.js --target $TARGET --outfile widget-server
 
 # Use a distroless glibc image for minimal Docker image size
-FROM cgr.dev/chainguard/glibc-dynamic:latest
+FROM cgr.dev/chainguard/glibc-dynamic:latest@sha256:a9cea20608270d361c98cd3304b90baa56a33ff3489a36220c75b18caf22bbe7
 
 # Copy the compiled binary from the builder
 COPY --from=builder /app/widget-server /widget-server
