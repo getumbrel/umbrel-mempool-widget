@@ -1,4 +1,4 @@
-# Mempool Widget API Server
+# mempool widget API server for umbrelOS
 
 <img width="410" alt="Screenshot 2024-07-24 at 8 34 23 PM" src="https://github.com/user-attachments/assets/b4f63f1b-5fb3-47bc-922f-1dc48dcb430c">
 
